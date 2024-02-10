@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/birnelj2/mothApp">
+  <a href="https://github.com/jordanbirnel/mothApp">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -24,14 +24,14 @@
   <p align="center">
     An open source repo for the PNWMoths mobile application, used to identify and collect data on moths among 1200+ species in the PNW!
     <br />
-    <a href="https://github.com/birnelj2/mothApp"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jordanbirnel/mothApp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/birnelj2/mothApp">Get Demo APK</a>
+    <a href="https://github.com/jordanbirnel/mothApp">Get Demo APK</a>
     ·
-    <a href="https://github.com/birnelj2/mothApp/issues">Report Bug</a>
+    <a href="https://github.com/jordanbirnel/mothApp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/birnelj2/mothApp/issues">Request Feature</a>
+    <a href="https://github.com/jordanbirnel/mothApp/issues">Request Feature</a>
   </p>
 </div>
 
@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-  <a href="https://github.com/birnelj2/mothApp">
+  <a href="https://github.com/jordanbirnel/mothApp">
     <img src="images/mothdemo.gif" alt="Demo" >
   </a>
   <br>
@@ -102,13 +102,10 @@ Our project provides a demo version of the application for users interested in e
 This demo APK is available through GitHub Releases.
 Follow these steps to download and install the demo APK:
 
-Navigate to GitHub Releases
-
-Visit the [Releases Page](https://github.com/birnelj2/mothApp/releases/latest) page of this GitHub repository.
 
 #### Download the APK
 
-Look for the .apk file in the list of assets. It should be named similarly to moth_app_demo.apk. Click on it to start the download.
+Download the APK [here](https://github.com/jordanbirnel/MothApp/releases/download/demo/PNWMoths-demo.apk). 
 
 #### Install the APK on Your Android Device
 
@@ -207,7 +204,7 @@ This page shows locations of moths found using the app. It allows you to search 
 - [x] Add upload features for Moth observations to mobile backend
 - [ ] Add process to vet observations by experts and upload to PNWMoths site
 
-See the [open issues](https://github.com/birnelj2/mothApp/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/jordanbirnel/mothApp/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +244,7 @@ Jordan Birnel - jordanbirnel@outlook.com
 
 PNWMoths site contact - pnwmoths@gmail.com
 
-Project Link: [https://github.com/birnelj2/mothApp](https://github.com/birnelj2/mothApp)
+Project Link: [https://github.com/jordanbirnel/mothApp](https://github.com/jordanbirnel/mothApp)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,7 +265,7 @@ Project Link: [https://github.com/birnelj2/mothApp](https://github.com/birnelj2/
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 [forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/birnelj2/mothApp.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/jordanbirnel/mothApp.svg?style=for-the-badge
 [stars-url]: https://github.com/github_username/repo_name/stargazers
 [issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/github_username/repo_name/issues
