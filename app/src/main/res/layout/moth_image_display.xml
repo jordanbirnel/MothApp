@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"> <!-- The orientation of the outer LinearLayout is set to vertical -->
+
+    <!-- TextView for the title "Images" added above the images -->
+    <TextView
+        android:id="@+id/imagesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observation Data:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+    <!-- TextView for the title "Images" added above the images -->
+    <TextView
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Images:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"> <!-- This is the LinearLayout for displaying images -->
+
+        <ImageView
+            android:id="@+id/moth0"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#FFFFFFFF" />
+
+        <ImageView
+            android:id="@+id/moth1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#FFFFFFFF" />
+
+        <ImageView
+            android:id="@+id/moth2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#FFFFFFFF" />
+
+        <ImageView
+            android:id="@+id/moth3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="#FFFFFFFF" />
+
+    </LinearLayout> <!-- End of the LinearLayout for displaying images -->
+    <!-- EditText for entering notes, added below the images -->
+    <EditText
+        android:id="@+id/notesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter notes here"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:layout_marginTop="16dp"/> <!-- Added some margin for spacing -->
+
+</LinearLayout>

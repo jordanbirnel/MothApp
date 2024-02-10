@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="demo.pnw.moths.app.ui.CameraFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_camera" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="demo.pnw.moths.app.ui.IDkeyFragment"
+        android:label="@string/title_id"
+        tools:layout="@layout/fragment_idkey" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="demo.pnw.moths.app.ui.ListFragment"
+        android:label="@string/title_list"
+        tools:layout="@layout/fragment_list" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="demo.pnw.moths.app.ui.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_privacy"
+        android:name="demo.pnw.moths.app.ui.PrivacyFragment"
+        android:label="Privacy"
+        tools:layout="@layout/fragment_privacy" />
+
+</navigation>

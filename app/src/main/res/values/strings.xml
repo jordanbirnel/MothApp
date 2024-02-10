@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PNWMoths</string>
+    <string name="title_map">Map</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_id">Identify</string>
+    <string name="title_list">Observations</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="pp_0">Privacy Policy</string>
+    <string name ="pp_1">Last modified on June 24, 2021</string>
+    <string name ="pp_2">This is the privacy policy of the PNW Moths Android app. This policy describes how the PNW Moths app handles personal information the app can access on your Android device, as well as how the Pacific Northwest Moths consortium handles any information (personal or otherwise) that you choose to share with us via the PNW Moths app. This privacy policy is subject to our License Agreement. The Pacific Northwest Moths consortium may update it from time to time, as specified in the "Privacy Policy Changes" section below.</string>
+    <string name ="pp_3">YOUR CONSENT</string>
+    <string name ="pp_4">You should read this entire Privacy Policy before submitting information to the Pacific Northwest Moths consortium via the PNW Moths Android app. Whenever you submitting information (personal or otherwise) to use via the PNW Moths Android app, you consent to the collection, use disclosure, transfer, and storage of that information in accordance with this Privacy Policy.</string>
+    <string name ="pp_5">TYPES OF INFORMATION WE COLLECT</string>
+    <string name ="pp_6">The Pacific Northwest Moths consortium does not collect information from you via your use of the PNW Moths Android app, unless you choose to share that information with us. The only information the PNW Moths Android app accesses is photographs and associated metadata (date and location information) for observations you have collected via the PNW Moths Android app on your Android device. For observations you do not choose to share with the Pacific Northwest Moths consortium, the information is only are stored on your Android device. If you choose to share observations with the Pacific Northwest Moths consortium by uploading those observations via the app, the photographs from each shared observation and metadata associated with those photographs (date and location information) will be also be stored on a Firebase server and are subject to the Google privacy policy.</string>
+    <string name ="pp_7">INFORMATION USE AND DISCLOSURE</string>
+    <string name ="pp_8">Data from observations that you choose to share with us and that are subsequently stored on the Firebase server will not be available to the general public or to other users of the PNW Moths Android app.</string>
+    <string name ="pp_9">PRIVACY POLICY CHANGES</string>
+    <string name ="pp_10">Although most changes are likely to be minor, the Pacific Northwest Moths consortium may change this Privacy Policy from time to time, at the discretion of the Pacific Northwest Moths consortium. If any changes to this Privacy Policy are made we will post the updated Privacy Policy here and will provide the date of the update at the top of the Privacy Policy. Any changes to the Privacy Policy are effective immediately upon posting, so you are encouraged to check the Privacy Policy often to be aware of current terms and conditions that apply to you. Your continued use of the PNW Moths Android app after any changes to this Privacy Policy will constitute your acceptance of such changes.</string>
+</resources>

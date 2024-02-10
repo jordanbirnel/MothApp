@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_camera" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/id_moth"
+        android:title="@string/title_id"
+        android:background="@color/teal_700"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/title_list" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_privacy"
+        android:icon="@drawable/ic_baseline_lock_24"
+        android:title="Privacy" />
+</menu>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CameraFragment">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:columnCount="5"
+        android:rowCount="4"
+        app:layout_constraintHeight_percent="0.0"
+        app:layout_constraintTop_toTopOf="parent">
+    </GridLayout>
+
+
+    <ImageView
+        android:id="@+id/iconImage1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/id_camera_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/TakenImage2"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="@+id/TakenImage1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246"
+        app:layout_constraintWidth_percent="0.3" />
+
+
+    <ImageView
+        android:id="@+id/TakenImage1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.32"
+        app:layout_constraintHorizontal_bias="0.0698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.191"
+        app:layout_constraintWidth_percent="0.42" />
+
+    <ImageView
+        android:id="@+id/iconImage2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/id_camera_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toEndOf="@+id/TakenImage1"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.244"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <ImageView
+        android:id="@+id/TakenImage2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.32"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toEndOf="@+id/TakenImage1"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.192"
+        app:layout_constraintWidth_percent="0.42" />
+
+    <ImageView
+        android:id="@+id/iconImage3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/id_camera_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintStart_toStartOf="@id/TakenImage3"
+        app:layout_constraintTop_toBottomOf="@+id/TakenImage1"
+        app:layout_constraintVertical_bias="0.292"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <ImageView
+        android:id="@+id/TakenImage3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.32"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toEndOf="@+id/TakenImage1"
+        app:layout_constraintTop_toBottomOf="@+id/TakenImage1"
+        app:layout_constraintVertical_bias="0.192"
+        app:layout_constraintWidth_percent="0.42" />
+
+    <ImageView
+        android:id="@+id/iconImage4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/id_camera_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="@id/TakenImage4"
+        app:layout_constraintTop_toBottomOf="@+id/TakenImage2"
+        app:layout_constraintVertical_bias="0.29"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <ImageView
+        android:id="@+id/TakenImage4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/black2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.32"
+        app:layout_constraintHorizontal_bias="0.0698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TakenImage1"
+        app:layout_constraintVertical_bias="0.19"
+        app:layout_constraintWidth_percent="0.42" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Click the Camera Icon to take a photo!"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@id/TakenImage1"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.777">
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
