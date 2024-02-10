@@ -27,7 +27,7 @@
     <a href="https://github.com/jordanbirnel/mothApp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jordanbirnel/mothApp">Get Demo APK</a>
+    <a href="https://github.com/jordanbirnel/MothApp/releases/download/demo/PNWMoths-demo.apk">Get Demo APK</a>
     ·
     <a href="https://github.com/jordanbirnel/mothApp/issues">Report Bug</a>
     ·
