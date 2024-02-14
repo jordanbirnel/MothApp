@@ -1,12 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+
 
 
 
@@ -76,11 +70,11 @@
   </div>
 
 This repo contains code for the PNWMoths mobile application, which I developed as part of a team on as a volunteer for the [PNWMoths](http://pnwmoths.biol.wwu.edu/) project, an Institutional Partnership Between many universities, museums, and associations in the Pacific Northwest.
-Since the official release unfortunately has not received updates or support since its initial launch in 2021, I have contributed a better-maintained version to this repository.
+Since the official release unfortunately has not received updates or support since its initial launch in 2021, I have contributed an open-source version to this repository.
 
 Here's why:
 * An original goal of the project was to open source the code for the application.
-* I am hoping that this repo will garner interest in open source contributions, or inspires other useful contributions to the PNWMoths project.
+* I am hoping that this repo will garner interest in open-source contributions, or inspires other useful contributions to the PNWMoths project.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
