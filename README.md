@@ -69,7 +69,7 @@
   <br>
   </div>
 
-This repo contains code for the PNWMoths mobile application, which I developed as part of a team on as a volunteer for the [PNWMoths](http://pnwmoths.biol.wwu.edu/) project, an Institutional Partnership Between many universities, museums, and associations in the Pacific Northwest.
+This repo contains code for the PNWMoths mobile application, which I developed as part of a team as a volunteer for the [PNWMoths](http://pnwmoths.biol.wwu.edu/) project, an Institutional Partnership Between many universities, museums, and associations in the Pacific Northwest.
 Since the official release unfortunately has not received updates or support since its initial launch in 2021, I have contributed an open-source version to this repository.
 
 Here's why:
